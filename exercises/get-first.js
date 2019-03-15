@@ -9,6 +9,11 @@
 
 // Your code :
 
+let itbe = '';
+function getFirst(itbe) {
+  return (itbe[0]);
+}
+
 //* Begin of tests
 const assert = require('assert')
 

@@ -5,9 +5,17 @@
  * and return its length.
  *
  * @notions Data-Structures, Get
- */
+ */ 
 
 // Your code :
+
+
+let b = '';
+function getLength(b) {
+  let n = b.length;
+  return (n);
+}
+
 
 //* Begin of tests
 const assert = require('assert')

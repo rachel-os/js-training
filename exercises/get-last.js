@@ -9,7 +9,16 @@
 
 // Your code :
 
+let b = '';
+function getLast(b) {
+  let n = b.length - 1;
+  return b[n];
+}
+
+
+
 //* Begin of tests
+
 const assert = require('assert')
 
 assert.strictEqual(getLast([ 2, 42 ]), 42)
