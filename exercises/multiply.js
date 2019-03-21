@@ -18,7 +18,6 @@ function multiply(a,b) {
 	for(let i = 0; i < valeur2; i++) {
 		total += valeur1; 
 	}
-
 	
 	if (a < 0 && b > 0){	
 		return -total;
